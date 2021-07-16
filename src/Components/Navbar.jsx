@@ -8,7 +8,10 @@ const Navbar = () => {
                 <div className='static-nav'>
 
                     <ul>
-                        <li><img src='.\data\home.png' />Home</li>
+                        <li>
+                            <img alt="img" src={require("../data/home.png")} />
+                            Home
+                        </li>
                         <li><img src='./data/search.png' />Search</li>
                         <li><img src='.\data\playlist.png' />Your library</li>
                     </ul>
